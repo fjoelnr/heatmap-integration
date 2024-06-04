@@ -1,0 +1,13 @@
+name: heatmap_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyter
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - geopandas
+  - folium
