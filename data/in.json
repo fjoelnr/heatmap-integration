@@ -1,0 +1,17 @@
+{
+    "areas": [
+        {
+            "type": "rectangle",
+            "boundaries": {
+                "north": 51.0,
+                "south": 47.0,
+                "east": 12.0,
+                "west": 8.0
+            },
+            "height_layers": [
+                0
+            ],
+            "spacing": 0.2
+        }
+    ]
+}

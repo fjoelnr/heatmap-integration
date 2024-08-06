@@ -1,0 +1,5 @@
+{
+    "message": "Karte und Heatmap erfolgreich erstellt",
+    "heatmap_path": "data/heatmap.html",
+    "map_path": "data/map.html"
+}

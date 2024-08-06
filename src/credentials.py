@@ -1,0 +1,4 @@
+# credentials.py
+
+OWM_API_KEY = "19b7dda8e52495702379cc65fdb0870d"
+OPENTOPO_API_KEY = "29e72b8235d2762e24fbdec61e7ff2fb"
