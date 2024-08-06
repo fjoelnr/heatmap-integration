@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  input_service:
+    build:
+      context: ./input_service
+    ports:
+      - "5000:5000"
+    depends_on:
+      - weather_client
+      - topography_client
+
+  central_service:
+    build:
+      context: ./central_service
+    ports:
+      - "5001:5000"
+    depends_on:
+      - input_service
+
+  output_service:
+    build:
+      context: ./output_service
+    ports:
+      - "5002:5000"
+    depends_on:
+      - central_service
+
+  weather_client:
+    build:
+      context: ./weather_client
+    ports:
+      - "5003:5000"
+
+  topography_client:
+    build:
+      context: ./topography_client
+    ports:
+      - "5004:5000"

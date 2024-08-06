@@ -1,0 +1,181 @@
+{
+    "52.52,13.4050": {
+        "weather": {
+            "timestamp": "2024-07-24T12:00:00",
+            "data": {
+                "coord": {
+                    "lon": 13.405,
+                    "lat": 52.52
+                },
+                "weather": [
+                    {
+                        "description": "clear sky"
+                    }
+                ],
+                "main": {
+                    "temp": 20.5,
+                    "pressure": 1013,
+                    "humidity": 50
+                },
+                "wind": {
+                    "speed": 3.6,
+                    "deg": 200
+                },
+                "clouds": {
+                    "all": 0
+                },
+                "dt": 1605182400,
+                "sys": {
+                    "country": "DE",
+                    "sunrise": 1605158432,
+                    "sunset": 1605192094
+                },
+                "timezone": 3600,
+                "id": 2950159,
+                "name": "Berlin",
+                "cod": 200
+            }
+        },
+        "topography": {
+            "timestamp": "2024-07-24T12:00:00",
+            "data": {
+                "elevation": 34,
+                "type": "Hill",
+                "description": "A gentle hill with sparse vegetation"
+            }
+        }
+    },
+    "48.1265,11.0276": {
+        "weather": {
+            "timestamp": "2024-08-05T10:39:08.388154",
+            "data": {
+                "coord": {
+                    "lon": 11.0276,
+                    "lat": 48.1265
+                },
+                "weather": [
+                    {
+                        "id": 803,
+                        "main": "Clouds",
+                        "description": "broken clouds",
+                        "icon": "04d"
+                    }
+                ],
+                "base": "stations",
+                "main": {
+                    "temp": 20.890000000000043,
+                    "feels_like": 20.840000000000032,
+                    "temp_min": 20.07000000000005,
+                    "temp_max": 22.04000000000002,
+                    "pressure": 1016,
+                    "humidity": 69,
+                    "sea_level": 1016,
+                    "grnd_level": 947
+                },
+                "visibility": 10000,
+                "wind": {
+                    "speed": 2.06,
+                    "deg": 330
+                },
+                "clouds": {
+                    "all": 75
+                },
+                "dt": 1722854046,
+                "sys": {
+                    "type": 2,
+                    "id": 2012948,
+                    "country": "DE",
+                    "sunrise": 1722830235,
+                    "sunset": 1722883587
+                },
+                "timezone": 7200,
+                "id": 6556255,
+                "name": "Geltendorf",
+                "cod": 200
+            }
+        },
+        "topography": {
+            "timestamp": "2024-08-05T10:39:08.488726",
+            "data": {
+                "results": [
+                    {
+                        "dataset": "eudem25m",
+                        "elevation": 598.5164794921875,
+                        "location": {
+                            "lat": 48.1265,
+                            "lng": 11.0276
+                        }
+                    }
+                ],
+                "status": "OK"
+            }
+        }
+    },
+    "52.52,13.405": {
+        "weather": {
+            "timestamp": "2024-08-05T10:39:09.077178",
+            "data": {
+                "coord": {
+                    "lon": 13.4,
+                    "lat": 52.52
+                },
+                "weather": [
+                    {
+                        "id": 802,
+                        "main": "Clouds",
+                        "description": "scattered clouds",
+                        "icon": "03d"
+                    }
+                ],
+                "base": "stations",
+                "main": {
+                    "temp": 21.340000000000032,
+                    "feels_like": 20.970000000000027,
+                    "temp_min": 20.08000000000004,
+                    "temp_max": 22.850000000000023,
+                    "pressure": 1015,
+                    "humidity": 55,
+                    "sea_level": 1015,
+                    "grnd_level": 1010
+                },
+                "visibility": 10000,
+                "wind": {
+                    "speed": 4.92,
+                    "deg": 297,
+                    "gust": 7.6
+                },
+                "clouds": {
+                    "all": 40
+                },
+                "dt": 1722853741,
+                "sys": {
+                    "type": 2,
+                    "id": 2011538,
+                    "country": "DE",
+                    "sunrise": 1722828778,
+                    "sunset": 1722883905
+                },
+                "timezone": 7200,
+                "id": 6545310,
+                "name": "Mitte",
+                "cod": 200
+            }
+        },
+        "topography": {
+            "timestamp": "2024-08-05T10:39:09.178320",
+            "data": {
+                "results": [
+                    {
+                        "dataset": "eudem25m",
+                        "elevation": 50.02224349975586,
+                        "location": {
+                            "lat": 52.52,
+                            "lng": 13.405
+                        }
+                    }
+                ],
+                "status": "OK"
+            }
+        }
+    }
+}

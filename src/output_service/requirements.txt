@@ -1,0 +1,11 @@
+jupyter
+numpy
+pandas
+matplotlib
+scikit-learn
+geopandas
+folium
+seaborn
+rasterio
+flask
+requests
